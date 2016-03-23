@@ -39,15 +39,16 @@ div.header {
 	line-height: 70px;
 	width: 100%;
 	height: 85px;
-	background-color: #FD5E53;
+	background-color: #F8F8FF;
 	text-align: center;
 	margin-top: 0;
+    margin-bottom: 20px;
 
 }
 
 div.header h1 {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	color: white;
+	font-family: 'Lato', sans-serif;
+	color: #3B444B;
 	margin-top: 0;
 }
 
@@ -78,7 +79,9 @@ div.searchbox *{
 
 .search_box {
 	margin-top: 5px;
-	border: 1px solid black;
+	padding: 7px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
 }	
 
 #tdnombre {
@@ -128,10 +131,10 @@ footer {
 	bottom:0px;
 	height:30px;
 	width:100%;
-	background-color: #FD5E53;
+	background-color: #F8F8FF;
 	width:100%;
 	text-align: left;
-	color: white;
+	color: #3B444B;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
@@ -190,4 +193,9 @@ label p {
 	}
 .searchbox {
     
+}
+
+.sbLabels {
+	font-family: 'Lato', sans-serif;
+	color: #3B444B;
 }
